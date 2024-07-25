@@ -1,17 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { resolve } from 'path';
+import type { UserConfig } from 'vite';
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig((): UserConfig => ({
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, 'src'),
-    },
-  },
-  server: {
-    port: 3000, // Ubah jika Anda ingin port yang berbeda
-  },
-});
+}));
 

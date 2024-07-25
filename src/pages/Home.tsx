@@ -1,14 +1,13 @@
-// src/pages/HomePage.tsx
-import React from "react";
-import { VStack } from "@chakra-ui/react";
+// src/pages/Home.tsx
+// src/pages/Home.tsx
+import MainLayout from '../layout/MainLayout';
 
-const HomePage: React.FC = () => {
+const Home = () => {
   return (
     <MainLayout>
-      <VStack spacing={8} w="full" align="start" px={[4, 6, 8]}>
-      </VStack>
     </MainLayout>
   );
 };
 
-export default HomePage;
+export default Home;
+
