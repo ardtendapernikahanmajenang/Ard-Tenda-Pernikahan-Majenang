@@ -1,8 +1,11 @@
-// src/chakra.ts
+// src/theme.ts
 import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
-  // Customize your theme here
+  fonts: {
+    heading: `'Playfair Display'`,
+    body: `'Montserrat', sans-serif`,
+  },
 });
 
 export default theme;
