@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   plugins: [react()],
-  base : "/Ard-Tenda-Pernikahan-Majenang/",
+  base: process.env.VITE_BASE_PATH || '/Ard-Tenda-Pernikahan-Majenang',
 });
 
