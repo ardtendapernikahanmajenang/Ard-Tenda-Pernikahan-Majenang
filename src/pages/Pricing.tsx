@@ -8,7 +8,7 @@ const Pricing: React.FC = () => {
       <VStack spacing={8} w="full" align="start">
         <div>
           {/* Tempatkan konten yang ingin Anda tampilkan di sini */}
-          <h> ini Price</h>
+          <p> ini Price</p>
         </div>
       </VStack>
     </MainLayout>
