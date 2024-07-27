@@ -8,7 +8,7 @@ const Faq: React.FC = () => {
       <VStack spacing={8} w="full" align="start">
         <div>
           {/* Tempatkan konten yang ingin Anda tampilkan di sini */}
-          <h> ini FAQ</h>
+          <p> ini FAQ</p>
         </div>
       </VStack>
     </MainLayout>
