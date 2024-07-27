@@ -11,7 +11,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       minH="100vh"
     >
       <Flex direction="column" minH="100vh">
-        <Navbar />
+        <Header />
         <Flex flex="1" direction="column" justifyContent="center" alignItems="center" p={[2, 4]}>
           {children}
         </Flex>

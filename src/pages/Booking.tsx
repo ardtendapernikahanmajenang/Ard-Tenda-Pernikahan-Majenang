@@ -1,6 +1,6 @@
 import React from "react";
 import { VStack } from "@chakra-ui/react";
-import MainLayout from "../layou/MainLayout";
+import MainLayout from "../layout/MainLayout";
 
 const Booking: React.FC = () => {
   return (

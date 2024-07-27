@@ -7,7 +7,6 @@ import {
   IconButton,
   Stack,
   VStack,
-  HStack,
   Divider,
   useColorModeValue,
 } from "@chakra-ui/react";
