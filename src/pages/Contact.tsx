@@ -8,8 +8,7 @@ const Contact: React.FC = () => {
       <VStack spacing={8} w="full" align="start">
         <div>
           {/* Tempatkan konten yang ingin Anda tampilkan di sini */}
-          <h> ini CONTACT</h>
-          <ProductPage/>
+          <p> ini CONTACT</p>
         </div>
       </VStack>
     </MainLayout>

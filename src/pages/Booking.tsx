@@ -1,6 +1,6 @@
 import React from "react";
 import { VStack } from "@chakra-ui/react";
-import MainLayout from "../layout/MainLayout";
+import MainLayout from "../layou/MainLayout";
 
 const Booking: React.FC = () => {
   return (
@@ -8,8 +8,7 @@ const Booking: React.FC = () => {
       <VStack spacing={8} w="full" align="start">
         <div>
           {/* Tempatkan konten yang ingin Anda tampilkan di sini */}
-          <h> ini Booking</h>
-          <ProductPage/>
+          <p> ini Booking</p>
         </div>
       </VStack>
     </MainLayout>

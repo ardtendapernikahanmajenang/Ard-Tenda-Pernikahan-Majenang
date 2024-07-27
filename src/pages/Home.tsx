@@ -8,7 +8,7 @@ const Home: React.FC = () => {
       <VStack spacing={8} w="full" align="start">
         <div>
           {/* Tempatkan konten yang ingin Anda tampilkan di sini */}
-          <h> ini home </h>
+          <p> ini home </p>
           <ProductPage/>
         </div>
       </VStack>
